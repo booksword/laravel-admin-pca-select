@@ -10,13 +10,13 @@ class Distpicker extends Field
     /**
      * @var string
      */
-    protected $view = 'laravel-admin-china-distpicker::select';
+    protected $view = 'dcat-admin-china-distpicker::select';
 
     /**
      * @var array
      */
     protected static $js = [
-        'vendor/laravel-admin-ext/china-distpicker/dist/distpicker.min.js'
+        'vendor/dcat-admin-ext/china-distpicker/dist/distpicker.min.js'
     ];
 
     /**

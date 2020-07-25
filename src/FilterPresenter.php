@@ -8,6 +8,6 @@ class FilterPresenter extends Presenter
 {
     public function view() : string
     {
-        return 'laravel-admin-china-distpicker::filter';
+        return 'dcat-admin-china-distpicker::filter';
     }
 }
