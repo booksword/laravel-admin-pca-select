@@ -14,9 +14,9 @@ class ChinaDistpickerServiceProvider extends ServiceProvider
      */
     public function boot(ChinaDistpicker $extension)
     {
-        if (! ChinaDistpicker::boot()) {
+        /*if (! ChinaDistpicker::boot()) {
             return ;
-        }
+        }*/
 
         if ($views = $extension->views()) {
             $this->loadViewsFrom($views, 'dcat-admin-china-distpicker');
