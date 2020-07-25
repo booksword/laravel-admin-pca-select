@@ -14,17 +14,13 @@ class ChinaDistpickerServiceProvider extends ServiceProvider
      */
     public function boot(ChinaDistpicker $extension)
     {
-        /*if (! ChinaDistpicker::boot()) {
-            return ;
-        }*/
-
         if ($views = $extension->views()) {
             $this->loadViewsFrom($views, 'dcat-admin-china-distpicker');
         }
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/dcat-admin-ext/china-distpicker')],
+                [$assets => public_path('vendors/dcat-admin-ext/china-distpicker')],
                 'dcat-admin-china-distpicker'
             );
         }
