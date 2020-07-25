@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\ChinaDistpicker;
+namespace Dcat\ChinaDistpicker;
 
-use Encore\Admin\Extension;
+use Dcat\Admin\Extension;
 
 class ChinaDistpicker extends Extension
 {
