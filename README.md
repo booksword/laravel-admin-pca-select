@@ -1,7 +1,7 @@
-Distpicker extension for laravel-admin
+Distpicker extension for dcat-admin
 ======
 
-[Distpicker](https://github.com/fengyuanchen/distpicker)是一个中国省市区三级联动选择组件，这个包是基于`Distpicker`的`laravel-admin`扩展，用来将`Distpicker`集成进`laravel-admin`的表单中
+[Distpicker](https://github.com/fengyuanchen/distpicker)是一个中国省市区三级联动选择组件，这个包是基于`Distpicker`的`dcat-admin`扩展，用来将`Distpicker`集成进`dcat-admin`的表单中
 
 ## 截图
 
@@ -10,12 +10,12 @@ Distpicker extension for laravel-admin
 ## 安装
 
 ```bash
-composer require laravel-admin-ext/china-distpicker
+composer require dcat-admin-ext/china-distpicker
 ```
 
 然后
 ```bash
-php artisan vendor:publish --tag=laravel-admin-china-distpicker
+php artisan vendor:publish --tag=dcat-admin-china-distpicker
 ```
 
 ## 配置
