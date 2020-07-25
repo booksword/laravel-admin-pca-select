@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\ChinaDistpicker;
+namespace Dcat\ChinaDistpicker;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Filter\AbstractFilter;
+use Dcat\Admin\Admin;
+use Dcat\Admin\Grid\Filter\AbstractFilter;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 

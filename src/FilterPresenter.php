@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\ChinaDistpicker;
+namespace Dcat\ChinaDistpicker;
 
-use Encore\Admin\Grid\Filter\Presenter\Presenter;
+use Dcat\Admin\Grid\Filter\Presenter\Presenter;
 
 class FilterPresenter extends Presenter
 {
